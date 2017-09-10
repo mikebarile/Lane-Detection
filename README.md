@@ -9,26 +9,26 @@
 
 ---
 
-### Methodology
+## Methodology
 
 The lane detection pipeline consists of five steps:
-## 1. Convert the image to grey scale
+### 1. Convert the image to grey scale
 
 ![alt text][greyScale]
-## 2. Use Canny edge detection to create a new image in which edges are highlighted
+### 2. Use Canny edge detection to create a new image in which edges are highlighted
 
 ![alt text][edges]
-## 3. Apply an image mask in order to focus on the portion of the image where lanes could exist
+### 3. Apply an image mask in order to focus on the portion of the image where lanes could exist
 
 ![alt text][maskedEdges]
-## 4. Determine Hough Lines based on image mask and draw lines onto blank image
+### 4. Determine Hough Lines based on image mask and draw lines onto blank image
 
 ![alt text][lineImage]
-## 5. Draw the lines onto the original image
+### 5. Draw the lines onto the original image
 
 ![alt text][lineEdges]
 
-### Reflection
+## Reflection
 
 Initially, this pipeline only showed lines that exist in the actual image. For example,
 a dashed line on the road would appear as multiple dashes instead of a single lane line.
