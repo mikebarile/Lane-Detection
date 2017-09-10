@@ -1,5 +1,10 @@
 # **Finding Lane Lines on the Road**
 
+Welcome to my first Udacity SDCND project! I've built a lane detection pipeline using
+Canny edge detection and Hough transformations. The pipeline is capable of annotating
+an image or video with raw lane detection (the individual lane markings on the road) and
+full lane detection (the actual lane).
+
 [//]: # (Image References)
 [greyScale]: ./examples/greyScale.jpg "Grayscale"
 [edges]: ./examples/edges.jpg "Edges"
@@ -11,7 +16,7 @@
 
 ## Methodology
 
-The lane detection pipeline consists of five steps:
+The lane detection pipeline includes five steps:
 ### 1. Convert the image to grey scale
 
 ![alt text][greyScale]
